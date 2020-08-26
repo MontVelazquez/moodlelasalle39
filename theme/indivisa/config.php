@@ -78,4 +78,12 @@ $THEME->layouts = [
         'regions' => array(),
         'options' => array('langmenu' => true),
       ),
+      // The site home page.
+    'frontpage' => array(
+      'file' => 'frontpage.php',
+      'regions' => array('side-pre'),
+      'defaultregion' => 'side-pre',
+      'options' => array('nonavbar' => true),
+  ),
+       
 ];

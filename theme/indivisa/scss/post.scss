@@ -1,2 +1,42 @@
 // Post SCSS for the theme.
 @import "login";
+#nav-drawer{
+    background: #232a42;
+    .user_flat_menu {
+        height: 69px;
+        a,
+        i,
+        span {
+            color: #232a42;
+        }
+        a:hover {
+            color: #dedede;
+        }
+        .bem-vindo {
+            font-size: 12px;
+        }
+        .user_picture {
+            float: left;
+            margin-left: 5px;
+        }
+        .icones-right {
+            float: right;
+            width: 123px;
+        }
+    }
+}
+#divone { 
+    background:  url([[pix:theme|logo_lasalle]]);
+    border-radius: 0;
+    border: 0 solid #999;
+    height: 95px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#icon-footer{
+    font-family: $font-family-sans-serif;
+}
+body {
+    background-image: url([[pix:theme|fondo]]);
+    background-size: cover;
+}
