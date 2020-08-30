@@ -41,10 +41,13 @@ $blockshtml = $OUTPUT->blocks('side-pre');
 $hasblocks = strpos($blockshtml, 'data-block=') !== false;
 $regionmainsettingsmenu = $OUTPUT->region_main_settings_menu();
 $logo_lasalle= $OUTPUT->image_url('logo_lasalle','theme');
+$logo_plataforma= $OUTPUT->image_url('logo_plataforma_movil','theme');
+
 $templatecontext = [
     'sitename' => format_string($SITE->shortname, true, ['context' => context_course::instance(SITEID), "escape" => false]),
     'output' => $OUTPUT,
     'logo_lasalle'=>$logo_lasalle,
+    'logo_plataforma'=>$logo_plataforma,
     'sidepreblocks' => $blockshtml,
     'hasblocks' => $hasblocks,
     'bodyattributes' => $bodyattributes,

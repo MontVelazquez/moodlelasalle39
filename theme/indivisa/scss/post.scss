@@ -26,3 +26,24 @@ body.pagelayout-login {
     position: fixed;
     width: 230px;
 }
+
+[data-region="drawer"] {
+    position: fixed;
+    width: 285px;
+    top: 0;
+    height: calc(100%);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 999;
+    background-color: #f2f2f2;
+    -webkit-transition: right .5s ease,left .5s ease;
+    -moz-transition: right .5s ease,left .5s ease;
+    -o-transition: right .5s ease,left .5s ease;
+    transition: right .5s ease,left .5s ease;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    margin-left: 285px;
+}
