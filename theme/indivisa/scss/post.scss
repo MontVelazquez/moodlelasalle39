@@ -53,10 +53,24 @@ body.pagelayout-login {
     right: 0!important;
     left: 0!important;
     bottom: 0!important;
-    z-index: 1030!important;
+    // z-index: 1030!important;
     background-color: none!important;
     color: #606060!important;
     margin-left: 285px!important;
     height: 50px!important;
     background-color: #FFFFff!important;
+    margin-bottom: .5rem;
+}
+
+.text-san14 {
+    font-family: IndivisaTextSans-Regular;
+    color: #606060;
+    font-size: 12pt;
+}
+
+@media (min-width: 576px){
+    #region-main {
+        border: 0;
+        padding: 1.25rem;
+    }
 }
