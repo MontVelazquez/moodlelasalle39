@@ -42,12 +42,16 @@ $hasblocks = strpos($blockshtml, 'data-block=') !== false;
 $regionmainsettingsmenu = $OUTPUT->region_main_settings_menu();
 $logo_lasalle= $OUTPUT->image_url('logo_lasalle','theme');
 $logo_plataforma= $OUTPUT->image_url('logo_plataforma_movil','theme');
+$icono_notificacion= $OUTPUT->image_url('ico_head_avisos','theme');
+$icono_mensaje= $OUTPUT->image_url('ico_head_mensajes','theme');
 
 $templatecontext = [
     'sitename' => format_string($SITE->shortname, true, ['context' => context_course::instance(SITEID), "escape" => false]),
     'output' => $OUTPUT,
     'logo_lasalle'=>$logo_lasalle,
     'logo_plataforma'=>$logo_plataforma,
+    'icono_notificacion'=>$icono_notificacion,
+    'icono_mensaje'=>$icono_mensaje,
     'sidepreblocks' => $blockshtml,
     'hasblocks' => $hasblocks,
     'bodyattributes' => $bodyattributes,

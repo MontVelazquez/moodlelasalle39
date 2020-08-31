@@ -38,8 +38,8 @@
 <div class="popover-region collapsed" data-region="popover-region-messages">
     <a id="message-drawer-toggle-{{uniqid}}" class="nav-link d-inline-block popover-region-toggle position-relative" href="#"
             role="button">
-            <i id="mensaje" class="fa fa-fw" title="Toggle messaging drawer" aria-label="Toggle messaging drawer" id="yui_3_17_2_1_1598866103586_184"></i>        
-            <div class="count-container {{^unreadcount}}hidden{{/unreadcount}}" data-region="count-container"
+        {{#pix}} t/message, core, {{#str}} togglemessagemenu, message {{/str}} {{/pix}}
+        <div class="count-container {{^unreadcount}}hidden{{/unreadcount}}" data-region="count-container"
         aria-label="{{#str}} unreadconversations, core_message, {{unreadcount}} {{/str}}">{{unreadcount}}</div>
     </a>
     {{> core_message/message_jumpto }}
