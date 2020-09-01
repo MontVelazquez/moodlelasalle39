@@ -92,3 +92,13 @@ body.pagelayout-login {
     }
 }
 
+
+#notificacion {
+    background: url('[[pix:theme|ico_head_avisos]]');
+    height: 24px !important;
+}
+#mensaje {
+    background: url('[[pix:theme|ico_head_mensajes]]');
+    height: 22px !important;
+    width: 22px !important;
+}
