@@ -8,7 +8,7 @@ body.pagelayout-login {
 }
 #nav-drawer{
     background: #232a42;
-    border-radius: 5px;
+    // border-radius: 5px;
 
 }
 #nav-drawer .banner {
@@ -78,6 +78,12 @@ body.pagelayout-login {
     color: #232a42;
     
 }
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+
 
 @media (min-width: 576px){
     #region-main {
