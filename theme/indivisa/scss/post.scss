@@ -1,11 +1,15 @@
 // Post SCSS for the theme.
 @import "login";
+@import "footer-icon";
+
 body.pagelayout-login {
     background-image: url([[pix:theme|fondo]]);
     background-size: cover;
 }
 #nav-drawer{
     background: #232a42;
+    border-radius: 5px;
+
 }
 #nav-drawer .banner {
     display: block;
@@ -18,7 +22,7 @@ body.pagelayout-login {
         width: 70%;
     }
 }
-#nav-drawer .iconos-footer {
+#iconos-footer {
     bottom: 0;
     clear: both;
     display: block;
@@ -68,12 +72,20 @@ body.pagelayout-login {
     font-size: 12pt;
 }
 
+.list-group-item{
+    font-family: IndivisaTextSans-Regular;
+    font-size: 12pt;
+    color: #232a42;
+    
+}
+
 @media (min-width: 576px){
     #region-main {
         border: 0;
         padding: 1.25rem;
     }
 }
+
 
 #notificacion {
     background: url('[[pix:theme|ico_head_avisos]]');
