@@ -17,7 +17,7 @@
 /**
  * Indivisa backgrounds.
  *
- * @package    indivisa
+ * @package    theme_indivisa
  * @copyright  2020 Ade.Luis.Montse
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

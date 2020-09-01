@@ -15,7 +15,7 @@
     {{>theme_boost/navbar}}
     
     <div id="page" class="container-fluid">
-        {{{ output.full_header }}}
+        <div>{{{ output.full_header }}}</div>
        <div id="page-content" class="row pb-3 d-print-block">
             <div id="region-main-box" class="col-12">
                 {{#hasregionmainsettingsmenu}}
@@ -42,10 +42,13 @@
             </div>
         </div>
     </div>
-    {{>theme_indivisa/nav-drawer }}  
+    {{>theme_indivisa/nav-drawer }} 
+    
+    
     
 </div>
 {{> theme_indivisa/footer }}
+
 
 </body>
 </html>

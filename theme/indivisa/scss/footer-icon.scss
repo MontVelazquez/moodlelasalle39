@@ -1,0 +1,47 @@
+/**
+ * based on https://moodle.org/plugins/theme_aardvark.
+ */
+.icones{
+    .footer-icon {
+        border-radius: 2px;
+        color: #fff;
+        display: block;
+        float: left;
+        font-size: 1.2em;
+        height: 1.2em;
+        line-height: 1.8em;
+        margin: 0 0.2em 0.4em;
+        text-align: center;
+        width: 1.3em;
+        text-shadow: none;
+        background-repeat: no-repeat;
+        &.facebook{
+            background-image: url([[pix:theme|icon/ico_facebook]]);
+        }
+        &.facebook:hover,
+        &.facebook:focus {
+            color: #f42941;
+        }
+        &.instagram{
+            background-image: url([[pix:theme|icon/ico_instagram]]);
+        }
+        &.instagram:hover,
+        &.instagram:focus {
+            color: #f42941;
+        }
+        &.twitter{
+            background-image: url([[pix:theme|icon/ico_twitter]]);
+        }
+        &.twitter:hover,
+        &.twitter:focus {
+            color: #f42941;
+        }
+        &.whatsapp{
+            background-image: url([[pix:theme|icon/ico_whatsapp]]);
+        }
+        &.whatsapp:hover,
+        &.whatsapp:focus {
+            color: #f42941;
+        }
+    }
+}
