@@ -86,5 +86,13 @@ $THEME->layouts = [
       'regions' => array('side-pre'),
       'defaultregion' => 'side-pre',
       'options' => array('langmenu' => false),
+  ), 
+
+  'badges' => array(
+    'file' => 'badgesView.php',
+    'defaultregion' => 'side-pre',
+    'options' => array('langmenu' => false),
   ),   
+
+
 ];
